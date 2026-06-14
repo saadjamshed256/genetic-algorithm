@@ -96,7 +96,7 @@ python ga_solver.py
 This solver applies the same heuristic optimization philosophy as our published research:
 
 > **Jamshed S. et al.** — *Heuristic computational approach for nonlinear reaction-diffusion kinetics in catalytic systems.*
-> Scientific Reports, Nature Portfolio, 2023.
+> Scientific Reports, Nature Portfolio, 2025.
 > [Read on nature.com →](https://www.nature.com/articles/s41598-025-21585-3)
 
 ---
@@ -171,7 +171,7 @@ This solver targets a 1D ODE shooting problem. For a PDE (e.g. a heat or reactio
 
 
 ```
-Jamshed S. et al. (2023). Heuristic computational approach for nonlinear
+Jamshed S. et al. (2025). Heuristic computational approach for nonlinear
 reaction-diffusion kinetics in catalytic systems. Scientific Reports.
 https://www.nature.com/articles/s41598-025-21585-3
 ```
