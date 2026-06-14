@@ -6,7 +6,7 @@
 
 A **Genetic Algorithm (GA)** implementation that solves the **Thomas-Fermi equation**, a singular nonlinear second-order boundary-value problem from atomic physics, and compares its accuracy against a naive RK4-based shooting method.
 
-This solver builds on the heuristic optimization approach used in our published work on nonlinear reaction-diffusion systems ([*Scientific Reports*, Nature Portfolio, 2023](https://www.nature.com/articles/s41598-025-21585-3)).
+This solver builds on the heuristic optimization approach used in our published work on nonlinear reaction-diffusion systems ([*Scientific Reports*, Nature Portfolio, 2025](https://www.nature.com/articles/s41598-025-21585-3)).
 
 ---
 
@@ -50,7 +50,7 @@ A hand-coded-style bisection method on a coarser RK4 grid (400 steps), represent
 
 ## Results
 
-![Solution Comparison](results/solution_comparison.png)
+![Solution Comparison](solution_comparison.png)
 
 | Method | y'(0) | Error vs. reference | Function evaluations |
 |---|---|---|---|
@@ -60,7 +60,7 @@ A hand-coded-style bisection method on a coarser RK4 grid (400 steps), represent
 
 The GA converges to within **5.8 × 10⁻³** of the literature reference value for `y'(0)`, roughly **80× more accurate** than the naive bisection shooting method, which diverges due to its coarse grid and simple interval-halving logic.
 
-![GA Parameter Convergence](results/ga_parameter_convergence.png)
+![GA Parameter Convergence](ga_parameter_convergence.png)
 
 The GA's best estimate stabilizes around generation 5–10 and remains close to the reference value for the remainder of the run, demonstrating robust convergence despite the equation's sensitivity.
 
