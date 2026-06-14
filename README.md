@@ -1,7 +1,7 @@
 # Genetic Algorithm Solver — Thomas-Fermi Equation
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python)](https://python.org)
-[![Published](https://img.shields.io/badge/Related%20Work-Scientific%20Reports%202023-1565C0?style=flat)](https://www.nature.com/articles/s41598-025-21585-3)
+[![Published](https://img.shields.io/badge/Related%20Work-Scientific%20Reports%202025-1565C0?style=flat)](https://www.nature.com/articles/s41598-025-21585-3)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A **Genetic Algorithm (GA)** implementation that solves the **Thomas-Fermi equation**, a singular nonlinear second-order boundary-value problem from atomic physics, and compares its accuracy against a naive RK4-based shooting method.
